@@ -1,0 +1,25 @@
+:root {
+  --body: hsl(204, 33%, 97%);
+}
+body {
+  background-color: var(--body);
+}
+ul {
+  list-style-type: disc;
+}
+.Row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.Info__item {
+  position: relative;
+}
+.Info__title {
+  position: absolute;
+  transform: translate(-50% -50%);
+  right: 0;
+  left: 320px;
+  top: 0;
+  z-index: 999;
+}
